@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-16T08:31:18 IST" name="Suite" finished-at="2022-06-16T08:31:55 IST" duration-ms="36843">
+    <groups>
+    </groups>
+    <test started-at="2022-06-16T08:31:18 IST" name="Test" finished-at="2022-06-16T08:31:55 IST" duration-ms="36843">
+      <class name="testngtest.titleVerfication">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:testngtest.titleVerfication@71def8f8]" started-at="2022-06-16T08:31:18 IST" name="beforeTest" finished-at="2022-06-16T08:31:24 IST" duration-ms="5633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://selenium.obsqurazone.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="titlecheck()[pri:1, instance:testngtest.titleVerfication@71def8f8]" started-at="2022-06-16T08:31:24 IST" name="titlecheck" finished-at="2022-06-16T08:31:24 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlecheck -->
+        <test-method signature="urlcheck()[pri:2, instance:testngtest.titleVerfication@71def8f8]" started-at="2022-06-16T08:31:24 IST" name="urlcheck" finished-at="2022-06-16T08:31:24 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlcheck -->
+      </class> <!-- testngtest.titleVerfication -->
+      <class name="testngtest.TextVerify">
+        <test-method signature="CheckText(java.lang.String,java.lang.String)[pri:3, instance:testngtest.TextVerify@73e22a3d]" started-at="2022-06-16T08:31:24 IST" name="CheckText" data-provider="SearchProvider" finished-at="2022-06-16T08:31:35 IST" duration-ms="10796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shamna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckText -->
+        <test-method signature="CheckText(java.lang.String,java.lang.String)[pri:3, instance:testngtest.TextVerify@73e22a3d]" started-at="2022-06-16T08:31:35 IST" name="CheckText" data-provider="SearchProvider" finished-at="2022-06-16T08:31:45 IST" duration-ms="10023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckText -->
+        <test-method signature="CheckText(java.lang.String,java.lang.String)[pri:3, instance:testngtest.TextVerify@73e22a3d]" started-at="2022-06-16T08:31:45 IST" name="CheckText" data-provider="SearchProvider" finished-at="2022-06-16T08:31:55 IST" duration-ms="9985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhupesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckText -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testngtest.TextVerify@73e22a3d]" started-at="2022-06-16T08:31:55 IST" name="afterTest" finished-at="2022-06-16T08:31:55 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testngtest.TextVerify -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
